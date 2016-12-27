@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "PFHandbook";
+    src: url('fonts/PFHandbookPro-Bold.otf'),
+    url('fonts/PFHandbookPro-Bold.otf'); /* IE */
+}
+body {
+	font-family: "PFHandbook"!important;
+	font-size:22px;
+}
+
+
+.gray-b-bot{
+	border-bottom:solid 2px #B3B3B3;
+}
