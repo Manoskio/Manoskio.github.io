@@ -23,7 +23,7 @@
 				As long as Twitter does not provide a place to store tweets, finding one is the next issue you have to resolve. So the place I used is <a href="https://www.mongodb.com/">MongoDB</a>, a free NoSQL cloud hosting database. In order to achieve that you download and install a community server of MongoDB on your computer. After that, you have to keep an instance of the database running on your computer and so, Command prompt is used. While being in the directory where the MongoDB is installed, you simply type the command “mongod --rest --jsonp” and you are ready to store.
 			</div>
 			<div class="pad-t-15 pad-b-15 gray-b-bot text-center">
-				<img style="width:30%;"src="images/islab.png"/>
+				<img src="images/islab.png" style="width:20%;" class="mar-t-20 mar-b-20"/><br>
 				Now that you found a place to store tweets you should find a way to obtain them. There are two possible ways for us to get tweets, the Search API and the Streaming API. The first returns a collection of relevant tweets matching a specified query, while the later monitors a sample of tweets in real-time. I worked with the second one because it better fit my needs. Luckily, my teacher saved too much effort collecting the tweets manually and gave us a program that would automatically collect and store tweets on our MongoDB. We simply had to update our personal information on txt file and use a Command Prompt to keep the program running. To do that you just write the command “java -jar TwitterCollector.jar”, while being in the directory where the package provided is saved. The only drawback of this setup is that you must keep your computer open all the time or you will not be able to stream and store any tweets.
 			</div>
 			<div class="pad-t-15 pad-b-15 text-center">
